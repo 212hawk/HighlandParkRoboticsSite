@@ -16,16 +16,24 @@ h1{
 #nav{
  border-bottom: #3399ff 3px solid
 }
-
+#footer{
+  background-color: #000080;
+}
 
 /*buttons*/
 .button {
-  color:rgb(171, 202, 216);
+  color:#404040;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   display: inline-block;
-  margin: 6px 0;
+  margin: 10px 5px;
   width:1fr;
+  background-color: #d9d9d9;
 }
 .button:hover{ background-color:#b3daff}
+
+.footer-links {
+  color: #f4f4f4;
+  padding:4px 2px
+}

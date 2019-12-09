@@ -1,0 +1,31 @@
+body{
+  width:100%;
+  background-color:#f4f4f4;
+}
+
+
+h1{
+  padding: 16 10;
+}
+/*sections*/
+#header{
+  background-color: #cce6ff;
+  padding:0;
+  margin:0;
+}
+#nav{
+ border-bottom: #3399ff 3px solid
+}
+
+
+/*buttons*/
+.button {
+  color:rgb(171, 202, 216);
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  margin: 6px 0;
+  width:1fr;
+}
+.button:hover{ background-color:#b3daff}

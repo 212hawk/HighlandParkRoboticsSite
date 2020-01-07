@@ -2,7 +2,7 @@ body{
   width:100%;
   background-color:#f4f4f4;
   margin:0%;
-  font-family:font-family, Ariel,Helvetica,sans-serif;
+  font-family:font-family, Arial, Arial Black,Helvetica,sans-serif;
 }
 
 
@@ -11,10 +11,13 @@ h1{
   font-size:40px;
   margin:0%;
   text-align: center;
+  font-family: Arial Black;
 }
+
 h2{
   font-size:35px;
   text-align: center;
+  font-weight:900
 }
 p {
   padding:0 8px
@@ -41,16 +44,34 @@ p {
 }
 
 /*buttons*/
+@keyframes team-hover {
+  0% {background-color:#ccccff;color:#404040;padding:6px 6px 6px 6px}
+  2% {background-color:#a3a3ff;color:#000038;padding:6px 6px 6px 6px}
+  100% {background-color:#a3a3ff;color:#000060;padding:6px 6px 6px 6px}
+}
+
+@keyframes team-unhover {
+  0% {background-color:#a3a3ff;color:#000060;padding:6px 6px 6px 6px}
+  2% {background-color:#ccccff;color:#404040;padding:6px 6px 6px 6px}
+  100% {background-color:#ccccff;color:#404040;padding:6px 6px 6px 6px}
+}
+
 .button {
+  background-color:#ccccff;
   color:#404040;
-  padding: 6px 8px 6px 16px;
+  padding:6px 6px 6px 6px
   text-decoration: none;
+  font-family: Helvetica;
   font-size: 25px;
+  font-weight: 900;
+  text-align:center;
   display: inline-block;
   margin: 10px 5px;
   width:1fr;
+  animation: team-unhover 75s ease 1;
+  animation-play-state: running;
 }
-.button:hover{ background-color:#b3b3ff}
+.button:hover{animation: team-hover 75s ease 1;animation-play-state: running;}
 
 .footer-link {
   color: #f4f4f4;

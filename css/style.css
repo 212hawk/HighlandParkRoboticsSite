@@ -87,8 +87,11 @@ p {
   display:inline-block;
   width:100%;
   max-height:70px;
+  box-sizing:border-box;
 }
 .footer-block{
- width:15%; 
- min-width:150px; 
+  font-size: 20px;
+  width:17%; 
+  min-width:150px; 
+  display:inline-block;
 }

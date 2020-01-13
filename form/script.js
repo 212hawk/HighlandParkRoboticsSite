@@ -4,7 +4,7 @@ var keypair;//outer keypair
 var auth;//one-time authentication code
 //var userID;
 function startsocket(words){
-	connection = new WebSocket('ws://127.0.0.1:17385');
+	connection = new WebSocket('ws://18.216.231.197:17385');
 	connection.onopen = function () {
 		keypair = keygen();
 		};

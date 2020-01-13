@@ -93,7 +93,8 @@ a{
 }
 .footer-block{
   font-size: 20px;
-  width:17.9%; 
+  width:30%; 
+  text-align:center;
   padding:10px 10px;
   min-width:150px; 
   display:inline-block;

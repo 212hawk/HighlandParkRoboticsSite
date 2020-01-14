@@ -4,42 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>HPHS Robotics</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/../../css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald:500|Source+Sans+Pro&display=swap" rel="stylesheet">  </head>
   <body>
-    <script src="javascript/script.js"></script>
+    <script src="script.js"></script>
+    <script src="bundle.js"></script>
     <div id="container">
       <div id="header">
         <div id="centered wrapper">
         <h1> HPHS Robotics </h1>
         </div>
         <div id="nav">
-          <a class="button" href="index.html"> Home </a>
-          <a class="button" href="links.html"> Important Links </a>
-          <a class="button" href="teams/RTTK/index.html">5452-Robot to the Knee </a>
+          <a class="button" href="../index.html"> Home </a>
+          <a class="button" href="../links.html"> Important Links </a>
+          <a class="button" href="../teams/RTTK/index.html">5452-Robot to the Knee </a>
           <a class="button" href="https://vertigo-robotics.netlify.com">6287-Vertigo </a>
-          <a class="button" href="teams/Achilies-Wheel/index.html"> 13259-Achilies Wheel</a>
-          <a class="button" href="teams/RIP/index.html"> 15095-Rust In Peace </a>
+          <a class="button" href="../teams/Achilies-Wheel/index.html"> 13259-Achilies Wheel</a>
+          <a class="button" href="../teams/RIP/index.html"> 15095-Rust In Peace </a>
 
         </div> <!--nav-->
       </div> <!--header-->
       <div id="main">
         <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0">
-        </script>
-        <img id="main-img" src="pix/main_pic.jpg">
+        <img id="main-img" src="../pix/main_pic.jpg">
         <div class="centered">
         <h2> Welcome to the home of HPHS Robotics </h2>
-        <h3> Contact Us </h3>
+        <h3> Contact Us: </h3>
         </div> <!--centered-->
-        <br>
+        <p>Here you can contact us</p>
         <div>
-          <textarea></textarea>
+          <p>Message (Required): <br><textarea id='message'></textarea></p>
+          <p>Name:<br><input id='name'></input></p>
+          <p>Email:<br><input id='email'></input></p>
+          <p id='error'></p>
         </div>
+        <button onclick='submit()'>Send</button>
         <br>
         <p> We are HPHS robotics, a FTC team run out of Highland Park High School.
-        <h1> Contact us: </h1> </br>
-        <div class="fb-page" data-href="www.facebook.com/giantsrobotics/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="www.facebook.com/giantsrobotics/" class="fb-xfbml-parse-ignore"><a href="www.facebook.com/giantsrobotics/">Hp Robotics</a></blockquote></div>
       </div>  <!--main-->
       <div id="footer">
         <div id="block-holder">

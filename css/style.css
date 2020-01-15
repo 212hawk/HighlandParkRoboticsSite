@@ -40,6 +40,7 @@ p {
 .centered{
   padding:0%;
   margin:0%;
+  text-align:center
 }
 
 /*buttons*/
@@ -83,7 +84,18 @@ a{
   width:100%;
   padding-bottom:15px;
 }
-
+#facebook{
+ margin:50px 75px;  
+  display:inline-block;
+  width:500px;
+  height:600px;
+}
+#twitter{
+  margin:50px 75px;
+  display:inline-block;
+  width:500px;
+  height:600px;
+}
 #fb-page{
   margin:100px;
 }

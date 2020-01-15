@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>HPHS Robotics</title>
-    <link href="/../../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/../css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../pix/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald:500|Source+Sans+Pro&display=swap" rel="stylesheet">  </head>
   <body>
     <script src="script.js"></script>
@@ -14,33 +15,32 @@
         <div id="centered wrapper">
         <h1> HPHS Robotics </h1>
         </div>
+        <div id="centered">
         <div id="nav">
           <a class="button" href="../index.html"> Home </a>
           <a class="button" href="../links.html"> Important Links </a>
+          <a class="button" href = "../form/index.html"> Contact Us </a>
           <a class="button" href="../teams/RTTK/index.html">5452-Robot to the Knee </a>
           <a class="button" href="https://vertigo-robotics.netlify.com">6287-Vertigo </a>
           <a class="button" href="../teams/Achilies-Wheel/index.html"> 13259-Achilies Wheel</a>
           <a class="button" href="../teams/RIP/index.html"> 15095-Rust In Peace </a>
-
         </div> <!--nav-->
+        </div> <!--centered-->
       </div> <!--header-->
       <div id="main">
         <div id="fb-root"></div>
-        <img id="main-img" src="../pix/main_pic.jpg">
         <div class="centered">
-        <h2> Welcome to the home of HPHS Robotics </h2>
-        <h3> Contact Us: </h3>
-        </div> <!--centered-->
-        <p>Here you can contact us</p>
-        <div>
-          <p>Message (Required): <br><textarea id='message'></textarea></p>
-          <p>Name:<br><input id='name'></input></p>
-          <p>Email:<br><input id='email'></input></p>
+        <h2> Contact Us</h2>
+        <div id="form">
+          <input class="boxes" id='message' placeholder="Message"></input></p>
+          <input class="boxes" id='name' placeholder="Name"></input></p>
+          <input class="boxes" id='email' placeholder="Email"></input></p>
           <p id='error'></p>
-        </div>
-        <button onclick='submit()'>Send</button>
+        </div> <!--form-->
+        <button id="submit" onclick='submit()'>Submit</button>
+          <p id='submitted'></p
         <br>
-        <p> We are HPHS robotics, a FTC team run out of Highland Park High School.
+        </div> <!--centered-->
       </div>  <!--main-->
       <div id="footer">
         <div id="block-holder">

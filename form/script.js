@@ -57,3 +57,6 @@ function error2(){
 function hideerror(){
 	gebi("error").style.display = 'none';
 }
+function submit(){
+  gebi("submitted").innerHTML = "Submitted";
+}
